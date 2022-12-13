@@ -2,25 +2,29 @@
   {
     "name": "home",
     "path": "/home",
-    "component": "C:\\\\Users\\\\PS\\\\Front-insta(nuxt)\\\\pages\\\\home.vue",
-    "chunkName": "pages/home"
+    "component": "C:\\\\Users\\\\PS\\\\Instagram-full\\\\InstagramClone\\\\pages\\\\home.vue",
+    "chunkName": "pages/home",
+    "_name": "_72ed9448"
   },
   {
     "name": "login",
     "path": "/login",
-    "component": "C:\\\\Users\\\\PS\\\\Front-insta(nuxt)\\\\pages\\\\login.vue",
-    "chunkName": "pages/login"
+    "component": "C:\\\\Users\\\\PS\\\\Instagram-full\\\\InstagramClone\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_08a9db50"
   },
   {
     "name": "sign",
     "path": "/sign",
-    "component": "C:\\\\Users\\\\PS\\\\Front-insta(nuxt)\\\\pages\\\\sign.vue",
-    "chunkName": "pages/sign"
+    "component": "C:\\\\Users\\\\PS\\\\Instagram-full\\\\InstagramClone\\\\pages\\\\sign.vue",
+    "chunkName": "pages/sign",
+    "_name": "_bb1243b4"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\PS\\\\Front-insta(nuxt)\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "component": "C:\\\\Users\\\\PS\\\\Instagram-full\\\\InstagramClone\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_3f023839"
   }
 ]
