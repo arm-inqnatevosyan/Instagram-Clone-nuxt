@@ -70,7 +70,7 @@ export default {
     right: -10%;
     font-size: 20px;
 }
-@media (max-width: 900px){
+@media (max-width: 992px){
   .story{
     width: 100%;
   }

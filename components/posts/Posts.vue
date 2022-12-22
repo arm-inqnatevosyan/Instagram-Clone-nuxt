@@ -165,7 +165,7 @@ footer ul li{
     color: rgb(0, 0, 0) !important;
     font-size: 13px;
 }
-@media (max-width:800px){
+@media (max-width:992px){
     main{
         grid-template-columns: repeat(1,1fr);
     }
@@ -179,6 +179,17 @@ footer ul li{
   footer ul li {
     margin-top: 20px;
     border-bottom:2px solid rgba(0, 0, 0, 0.51);
+  }
+}
+@media (max-width:768px){
+  main{
+    width: 100%;
+  }
+  .post-div{
+    width: 90% !important;
+  }
+  .icons{
+    display: none !important;
   }
 }
 </style>

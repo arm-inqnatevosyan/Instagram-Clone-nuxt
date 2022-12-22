@@ -161,4 +161,18 @@ export default {
               flex-direction: column;
             }
         }
+    @media (max-width: 992px){
+      .block{
+        border: none;
+        margin-top: 130px;
+      }
+      footer{
+        display: none;
+      }
+    }
+    @media (max-width: 768px){
+      .block input{
+        width: 300px;
+      }
+    }
     </style>
