@@ -136,13 +136,15 @@ footer ul li {
 }
 
 @media (max-width: 768px) {
-  form input{
+  form input {
     width: 300px;
   }
-  form{
+
+  form {
     margin-right: 30px;
   }
-  form .submit{
+
+  form .submit {
     width: 200px;
   }
 }

@@ -44,49 +44,57 @@ export default {
 }
 </script>
 <style scoped>
-.story{
-    width: 78%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
+.story {
+  width: 78%;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
   margin: 30px auto 0;
 }
-.story img{
-    width: 60px;
-    height: 60px;
-    border-radius: 50% 50%;
+
+.story img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50% 50%;
 }
-.story p{
-    font-size: 13px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.story p {
+  font-size: 13px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-#one-block{
-    position: relative;
+
+#one-block {
+  position: relative;
 }
-#add{
-    position: absolute;
-    bottom: 20%;
-    color: rgb(52, 157, 228);
-    right: -10%;
-    font-size: 20px;
+
+#add {
+  position: absolute;
+  bottom: 20%;
+  color: rgb(52, 157, 228);
+  right: -10%;
+  font-size: 20px;
 }
-@media (max-width: 992px){
-  .story{
+
+@media (max-width: 992px) {
+  .story {
     width: 100%;
   }
-  .story img{
+
+  .story img {
     width: 35px;
     height: 35px;
     margin: 0 auto !important;
   }
-  .story p{
+
+  .story p {
     font-size: 10px;
   }
 }
-@media (max-width: 500px){
-  .story{
+
+@media (max-width: 500px) {
+  .story {
     display: grid;
-    grid-template-columns: repeat(4,0.11fr);
+    grid-template-columns: repeat(4, 0.11fr);
     grid-gap: 10px;
     margin: 0 auto;
     width: 100%;
