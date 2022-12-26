@@ -46,7 +46,7 @@
   </div>
 </template>
 <script>
-import Navbar from '~/components/Navbar.vue'
+import Navbar from '@/components/Navbar.vue'
 
 export default {
   name: 'Register',
@@ -187,7 +187,7 @@ footer ul li {
 @media (max-width: 992px) {
   .block {
     border: none;
-    margin-top: 130px;
+    margin-top: 30px;
   }
 
   footer {
@@ -198,6 +198,9 @@ footer ul li {
 @media (max-width: 768px) {
   .block input {
     width: 300px;
+  }
+  .block{
+    margin-top: 30px !important;
   }
 }
 </style>

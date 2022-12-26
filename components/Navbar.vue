@@ -6,13 +6,13 @@
     </div>
     <div class="icons">
       <NuxtLink to="/">
-        <img src="./story/home.png" alt="">
+        <img src="../static/home.png" alt="">
       </NuxtLink>
       <NuxtLink to="/login">
-        <img src="./story/search.png" alt="">
+        <img src="../static/search.png" alt="">
       </NuxtLink>
       <NuxtLink to="/sign">
-        <img src="./story/heart.png" alt="">
+        <img src="../static/heart.png" alt="">
       </NuxtLink>
     </div>
     <ul>
@@ -49,6 +49,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto !important;
+  overflow: hidden;
 }
 
 ul {
@@ -80,7 +81,7 @@ a {
   color: black;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 576px) {
   nav {
     width: 95%;
     display: flex;
@@ -89,6 +90,9 @@ a {
 
   nav ul a {
     font-size: 11px;
+  }
+  nav ul li{
+    margin-left: 10px;
   }
 
   .icons img {
