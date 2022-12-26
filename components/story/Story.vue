@@ -93,7 +93,8 @@ export default {
   .story p {
     font-size: 10px;
   }
-  .story div{
+
+  .story div {
     margin-left: 20px !important;
   }
 }
@@ -106,17 +107,19 @@ export default {
     width: 100%;
     margin: 0 auto;
   }
-  .story div{
+
+  .story div {
     width: 70px;
   }
+
   .story img {
     width: 30px;
     height: 30px;
     margin: 0 auto !important;
   }
-  .story div{
+
+  .story div {
     margin-left: 10px !important;
-    margin: 0px auto;
   }
 }
 </style>
